@@ -268,7 +268,7 @@ function TestimonialCard({ item, index, activeIndex, setActiveIndex }) {
               fontWeight: 400,
               color: 'rgb(17, 17, 17)',
               margin: '0 0 16px',
-              lineHeight: 1.4,
+              lineHeight: '29.2px',
             }}
           >
             {item.quote}
@@ -319,6 +319,7 @@ export default function Testimonials() {
             fontSize: '40px',
             fontWeight: 600,
             color: 'rgb(17, 17, 17)',
+            lineHeight: '52px',
             margin: '0 0 48px',
           }}
         >

@@ -33,11 +33,11 @@ export default function Hero() {
 
         {/* Headline */}
         <h2
-          className="get-started-h2 text-[28px] sm:text-[34px] lg:text-[40px]"
+          className="get-started-h2 text-[28px] sm:text-[36px] lg:text-[48px]"
           style={{
             fontWeight: 600,
-            color: '#fbfaf3',
-            lineHeight: 1.3,
+            color: '#ffffff',
+            lineHeight: '1.125',
             textAlign: 'center',
             fontFamily: "'Manrope', sans-serif",
             marginBottom: '8px',

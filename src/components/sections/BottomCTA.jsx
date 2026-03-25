@@ -90,11 +90,11 @@ export default function BottomCTA() {
       <div className="max-w-[1200px] mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8">
         {/* Left Side */}
         <div>
-          <h2 className="text-white font-['Manrope'] font-semibold" style={{ fontSize: '40px' }}>
+          <h2 className="font-['Manrope']" style={{ fontSize: '40px', fontWeight: 600, color: '#fff', lineHeight: '52px' }}>
             Accelerate{' '}
             <BottomTypewriter className="text-[#D12D40]" />
           </h2>
-          <p className="text-white/70 text-base mt-4 font-['Inter']">
+          <p className="font-['Inter']" style={{ fontSize: '16px', fontWeight: 400, color: 'rgb(255,255,255)', lineHeight: '22.4px', marginTop: '16px' }}>
             Clear, authenticated messages that cut back-and-forth and keep work moving.
           </p>
         </div>
@@ -103,12 +103,21 @@ export default function BottomCTA() {
         <div className="flex flex-col items-center shrink-0">
           <a
             href="https://app.emovid.com/?plan=business&duration=annually"
-            className="bg-[#8B1A2B] text-white rounded-full px-12 py-4 text-base hover:bg-[#6B1420] transition font-['Inter'] cursor-pointer inline-block"
-            style={{ textDecoration: 'none' }}
+            className="get-started-btn font-['Inter'] cursor-pointer inline-block"
+            style={{
+              background: 'linear-gradient(151.21deg, rgb(161, 45, 58) 17.63%, rgb(107, 23, 33) 79.47%)',
+              color: '#fff',
+              borderRadius: '100px',
+              padding: '15px 60px',
+              fontSize: '16px',
+              fontWeight: 300,
+              textDecoration: 'none',
+              transition: 'opacity 0.3s ease',
+            }}
           >
             Get Started Free
           </a>
-          <p className="text-white/50 text-sm mt-3 text-center font-['Inter']">
+          <p className="font-['Inter']" style={{ fontSize: '16px', fontWeight: 400, color: 'rgb(255,255,255)', marginTop: '12px', textAlign: 'center' }}>
             No credit card required.
           </p>
         </div>

@@ -35,7 +35,7 @@ export default function VideoFanCarousel() {
         return (
           <div
             key={i}
-            className="new-banner-card"
+            className={`new-banner-card new-video-card-${i + 1}`}
             style={{
               position: 'absolute',
               left: '50%',

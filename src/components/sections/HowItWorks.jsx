@@ -50,6 +50,7 @@ export default function HowItWorks() {
             fontSize: '40px',
             color: 'rgb(17, 17, 17)',
             letterSpacing: '-0.1px',
+            lineHeight: '52px',
             marginTop: '16px',
           }}
         >
@@ -107,7 +108,7 @@ export default function HowItWorks() {
                   fontSize: 'clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.568), 19px)',
                   fontWeight: 400,
                   color: 'rgb(0, 0, 0)',
-                  lineHeight: 1.4,
+                  lineHeight: '1.4',
                   margin: 0,
                 }}
               >

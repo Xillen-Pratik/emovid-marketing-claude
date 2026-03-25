@@ -35,30 +35,30 @@ export default function Header() {
           </a>
 
           {/* Center Nav Links (desktop) */}
-          <div className="hidden lg:flex items-center gap-8 text-base font-['Inter']">
-            <button className="flex items-center gap-1 text-gray-700 hover:text-gray-900 transition font-semibold">
+          <div className="hidden lg:flex items-center gap-8 font-['Inter']" style={{ fontSize: '16px', fontWeight: 400 }}>
+            <button className="flex items-center gap-1 hover:opacity-70 transition" style={{ color: 'rgb(17,17,17)', fontWeight: 400, fontSize: '16px' }}>
               Product
               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="2" className="mt-0.5">
                 <path d="M3 5L6 8L9 5" />
               </svg>
             </button>
-            <button className="flex items-center gap-1 text-gray-700 hover:text-gray-900 transition font-semibold">
+            <button className="flex items-center gap-1 hover:opacity-70 transition" style={{ color: 'rgb(17,17,17)', fontWeight: 400, fontSize: '16px' }}>
               Use Cases
               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="2" className="mt-0.5">
                 <path d="M3 5L6 8L9 5" />
               </svg>
             </button>
-            <a href="#pricing" className="text-gray-700 hover:text-gray-900 transition font-semibold">Pricing</a>
-            <a href="#testimonials" className="text-gray-700 hover:text-gray-900 transition font-semibold">Testimonials</a>
-            <a href="#press" className="text-gray-700 hover:text-gray-900 transition font-semibold">Press</a>
+            <a href="#pricing" className="hover:opacity-70 transition" style={{ color: 'rgb(17,17,17)', fontWeight: 400, fontSize: '16px', textDecoration: 'none' }}>Pricing</a>
+            <a href="#testimonials" className="hover:opacity-70 transition" style={{ color: 'rgb(17,17,17)', fontWeight: 400, fontSize: '16px', textDecoration: 'none' }}>Testimonials</a>
+            <a href="#press" className="hover:opacity-70 transition" style={{ color: 'rgb(17,17,17)', fontWeight: 400, fontSize: '16px', textDecoration: 'none' }}>Press</a>
           </div>
 
           {/* Right Side (desktop) */}
           <div className="hidden lg:flex items-center gap-4">
             <a
               href="https://app.emovid.com/"
-              className="flex items-center gap-[5px] bg-white text-black rounded-lg px-[18px] py-4 text-base font-semibold font-['Inter'] hover:bg-gray-50 transition"
-              style={{ border: 'none' }}
+              className="flex items-center gap-[5px] bg-white hover:bg-gray-50 transition font-['Inter']"
+              style={{ border: 'none', color: 'rgb(0,0,0)', fontSize: '16px', fontWeight: 600, padding: '12px 18px', borderRadius: '8px', textDecoration: 'none' }}
             >
               <img
                 src={personIcon}
@@ -69,7 +69,18 @@ export default function Header() {
             </a>
             <a
               href="/get-started"
-              className="bg-[#8B1A2B] text-white px-6 py-2.5 rounded-full text-sm font-medium hover:bg-[#6B1420] transition font-['Inter']"
+              className="get-started-btn font-['Inter']"
+              style={{
+                background: 'linear-gradient(151.21deg, rgb(161, 45, 58) 17.63%, rgb(107, 23, 33) 79.47%)',
+                color: '#fff',
+                padding: '12px 24px',
+                borderRadius: '100px',
+                fontSize: '16px',
+                fontWeight: 400,
+                textDecoration: 'none',
+                display: 'inline-block',
+                transition: 'opacity 0.3s ease',
+              }}
             >
               Get Started Free
             </a>
@@ -120,8 +131,8 @@ export default function Header() {
 
       {/* Announcement Banner — below nav */}
       {showBanner && (
-        <div className="bg-[#8B1A2B] text-white text-center py-2 text-sm relative">
-          <span className="font-['Inter']">
+        <div className="bg-[#8B1A2B] text-white text-center py-2 relative">
+          <span className="font-['Inter']" style={{ fontSize: '14px', fontWeight: 300, color: '#fff' }}>
             Emovid not only builds trust, but it saves time. Our average user saves 10+ hours a week.
           </span>
           <button

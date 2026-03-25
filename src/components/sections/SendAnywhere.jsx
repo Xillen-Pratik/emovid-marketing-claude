@@ -153,6 +153,7 @@ export default function SendAnywhere() {
         <div style={{ marginTop: '48px' }}>
           <a
             href="https://app.emovid.com/?plan=business&duration=annually"
+            className="get-started-btn"
             style={{
               display: 'inline-block',
               background: 'linear-gradient(151.21deg, rgb(161, 45, 58) 17.63%, rgb(107, 23, 33) 79.47%)',
@@ -164,7 +165,7 @@ export default function SendAnywhere() {
               fontFamily: "'Inter', sans-serif",
               textDecoration: 'none',
               border: 'none',
-              transition: 'opacity 0.2s',
+              transition: 'opacity 0.3s ease',
             }}
           >
             Get Started Free

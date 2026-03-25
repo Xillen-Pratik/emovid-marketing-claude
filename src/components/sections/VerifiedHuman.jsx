@@ -22,8 +22,8 @@ export default function VerifiedHuman() {
         </h2>
 
         <p
-          className="text-white/80 text-base max-w-[700px] mx-auto mb-8 font-['Inter']"
-          style={{ lineHeight: 1.6 }}
+          className="max-w-[700px] mx-auto mb-8 font-['Inter']"
+          style={{ lineHeight: '22.4px', fontSize: '16px', fontWeight: 400, color: 'rgb(255,255,255)' }}
         >
           Every Emovid includes our patented Verified Human Communication&trade; seal to confirm
           it&rsquo;s truly from you: protected, tamper-proof, and verified.
@@ -31,7 +31,21 @@ export default function VerifiedHuman() {
 
         <a
           href="#features"
-          className="inline-block border border-white text-white rounded-full px-16 py-4 text-base hover:bg-white hover:text-black transition bg-transparent font-['Inter']"
+          className="font-['Inter']"
+          style={{
+            display: 'inline-block',
+            border: '1px solid #fff',
+            color: '#fff',
+            borderRadius: '100px',
+            padding: '15px 60px',
+            fontSize: '16px',
+            fontWeight: 400,
+            textDecoration: 'none',
+            background: 'transparent',
+            transition: 'all 0.3s ease',
+          }}
+          onMouseEnter={(e) => { e.currentTarget.style.background = '#fff'; e.currentTarget.style.color = '#000'; }}
+          onMouseLeave={(e) => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = '#fff'; }}
         >
           See All Features
         </a>

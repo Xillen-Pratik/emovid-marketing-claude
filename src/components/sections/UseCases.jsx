@@ -88,7 +88,7 @@ export default function UseCases() {
                   fontSize: 'clamp(24px, 1.5rem + ((1vw - 3.2px) * 1.023), 33px)',
                   fontWeight: 600,
                   color: 'rgb(0, 0, 0)',
-                  lineHeight: '1.125',
+                  lineHeight: '37.125px',
                   letterSpacing: '-0.1px',
                   marginBottom: '32px',
                 }}
@@ -102,8 +102,9 @@ export default function UseCases() {
                     key={j}
                     className="font-['Inter']"
                     style={{
-                      position: 'relative',
-                      paddingLeft: '30px',
+                      display: 'flex',
+                      alignItems: 'flex-start',
+                      gap: '10px',
                       margin: '8px 0 16px',
                       fontSize: '18px',
                       fontWeight: 400,
@@ -113,21 +114,20 @@ export default function UseCases() {
                   >
                     <span
                       style={{
-                        position: 'absolute',
-                        left: 0,
-                        top: '3px',
                         width: '21px',
                         height: '21px',
+                        minWidth: '21px',
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
                         borderRadius: '50%',
                         backgroundColor: '#8B1A2B',
+                        marginTop: '3px',
                       }}
                     >
-                      <img src={checkSvg} alt="" width="12" height="10" />
+                      <img src={checkSvg} alt="" width="12" height="10" style={{ display: 'block' }} />
                     </span>
-                    {bullet}
+                    <span>{bullet}</span>
                   </li>
                 ))}
               </ul>
@@ -146,7 +146,7 @@ export default function UseCases() {
                   fontWeight: 400,
                   textDecoration: 'none',
                   border: '1px solid rgb(0, 0, 0)',
-                  transition: 'background 0.2s, color 0.2s',
+                  transition: 'all 0.3s ease',
                 }}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.background = 'rgb(0, 0, 0)';

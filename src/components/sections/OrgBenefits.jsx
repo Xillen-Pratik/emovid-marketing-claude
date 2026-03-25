@@ -100,9 +100,9 @@ export default function OrgBenefits() {
                 style={{
                   fontSize: '16px',
                   fontWeight: 400,
-                  color: 'rgb(82, 85, 90)',
+                  color: 'rgb(0, 0, 0)',
                   margin: 0,
-                  lineHeight: 1.5,
+                  lineHeight: '22.4px',
                 }}
               >
                 {item.description}
