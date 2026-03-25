@@ -298,7 +298,7 @@ export default function Testimonials() {
   const [activeIndex, setActiveIndex] = useState(null);
 
   return (
-    <section className="bg-white" style={{ padding: '50px 15px' }}>
+    <section style={{ backgroundColor: '#F9FAFA', padding: '50px 15px' }}>
       <div style={{ maxWidth: '1420px', margin: '0 auto', textAlign: 'center' }}>
         <p
           className="font-['Inter']"
@@ -316,7 +316,7 @@ export default function Testimonials() {
         <h2
           className="font-['Manrope']"
           style={{
-            fontSize: 'clamp(28px, 1.75rem + ((1vw - 3.2px) * 1.364), 40px)',
+            fontSize: '40px',
             fontWeight: 600,
             color: 'rgb(17, 17, 17)',
             margin: '0 0 48px',

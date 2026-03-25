@@ -45,8 +45,9 @@ export default function HowItWorks() {
           FACE-TO-FACE WITHOUT THE MEETING
         </p>
         <h2
-          className="font-['Manrope'] text-[28px] sm:text-[34px] lg:text-[40px] font-semibold mb-12"
+          className="font-['Manrope'] font-semibold mb-12"
           style={{
+            fontSize: '40px',
             color: 'rgb(17, 17, 17)',
             letterSpacing: '-0.1px',
             marginTop: '16px',

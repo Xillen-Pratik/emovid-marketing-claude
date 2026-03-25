@@ -85,12 +85,12 @@ export default function BottomCTA() {
   return (
     <section
       className="py-20"
-      style={{ background: 'linear-gradient(180deg, #1a1a1a 0%, #000 50%, #1a1a1a 100%)' }}
+      style={{ background: 'radial-gradient(104.62% 100% at 50% 100%, #000 0%, #000 80.68%, #1D2025 100%)' }}
     >
       <div className="max-w-[1200px] mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8">
         {/* Left Side */}
         <div>
-          <h2 className="text-white font-['Manrope'] text-4xl md:text-5xl font-semibold">
+          <h2 className="text-white font-['Manrope'] font-semibold" style={{ fontSize: '40px' }}>
             Accelerate{' '}
             <BottomTypewriter className="text-[#D12D40]" />
           </h2>

@@ -34,7 +34,7 @@ const benefits = [
 
 export default function OrgBenefits() {
   return (
-    <section className="bg-white py-20">
+    <section style={{ backgroundColor: '#F9FAFA', paddingTop: '80px', paddingBottom: '80px' }}>
       <div className="max-w-[1200px] mx-auto px-4">
         {/* Heading - centered */}
         <h4
