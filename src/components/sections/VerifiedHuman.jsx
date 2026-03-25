@@ -15,7 +15,7 @@ export default function VerifiedHuman() {
     >
       <div className="max-w-[1200px] mx-auto text-center px-4 sm:px-12">
         <h2
-          className="text-white font-['Manrope'] text-[28px] sm:text-[32px] md:text-[36px] lg:text-[40px] font-semibold mb-4"
+          className="text-white font-['Manrope'] text-[28px] sm:text-[28px] md:text-[28px] lg:text-[28px] font-semibold mb-4"
           style={{ lineHeight: 1.3 }}
         >
           Emovid&rsquo;s Verified Human Communication&trade; Technology
